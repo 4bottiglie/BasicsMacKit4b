@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF2173B8204486370082CFD4 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2173B7204486370082CFD4 /* URLExtensions.swift */; };
+		FF2FF8ED2038CCD6008EB5AF /* BookmarksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2FF8EC2038CCD6008EB5AF /* BookmarksManager.swift */; };
+		FF8E9AEB203FBB1C00ABEDE1 /* NSLayoutConstraintsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8E9AEA203FBB1C00ABEDE1 /* NSLayoutConstraintsExtensions.swift */; };
+		FF9ACFD32042105F0030F005 /* ViewHidder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9ACFD22042105F0030F005 /* ViewHidder.swift */; };
+		FFA5E87A2031308A005097DB /* NSViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5E8792031308A005097DB /* NSViewExtensions.swift */; };
+		FFA7DA40203C8D32009F60A9 /* ManualScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7DA3F203C8D32009F60A9 /* ManualScrollableView.swift */; };
+		FFBD921A20371ACF00A25CB0 /* ManualScrollHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBD921920371ACF00A25CB0 /* ManualScrollHandler.swift */; };
+		FFBD922120372D4D00A25CB0 /* ListenableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBD922020372D4D00A25CB0 /* ListenableScrollView.swift */; };
+		FFBD922320372D6000A25CB0 /* ListenableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBD922220372D6000A25CB0 /* ListenableCollectionView.swift */; };
 		FFBFBF45202E3F38005C2E35 /* BasicsMacKit4b.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBFBF3B202E3F38005C2E35 /* BasicsMacKit4b.framework */; };
 		FFBFBF4A202E3F38005C2E35 /* BasicsMacKit4bTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFBF49202E3F38005C2E35 /* BasicsMacKit4bTests.swift */; };
 		FFBFBF4C202E3F38005C2E35 /* BasicsMacKit4b.h in Headers */ = {isa = PBXBuildFile; fileRef = FFBFBF3E202E3F38005C2E35 /* BasicsMacKit4b.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFBFBF56202E3F45005C2E35 /* FIleManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFBF55202E3F45005C2E35 /* FIleManagerExtensions.swift */; };
+		FFBFBF82202E4BF2005C2E35 /* NSColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFBF81202E4BF2005C2E35 /* NSColorExtensions.swift */; };
+		FFBFBF84202E4C62005C2E35 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFBF83202E4C62005C2E35 /* StringExtensions.swift */; };
+		FFEB31E3203FB6BC000B364C /* SetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEB31E2203FB6BC000B364C /* SetExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +36,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF2173B7204486370082CFD4 /* URLExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
+		FF2FF8EC2038CCD6008EB5AF /* BookmarksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksManager.swift; sourceTree = "<group>"; };
+		FF8E9AEA203FBB1C00ABEDE1 /* NSLayoutConstraintsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintsExtensions.swift; sourceTree = "<group>"; };
+		FF9ACFD22042105F0030F005 /* ViewHidder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHidder.swift; sourceTree = "<group>"; };
+		FFA5E8792031308A005097DB /* NSViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSViewExtensions.swift; sourceTree = "<group>"; };
+		FFA7DA3F203C8D32009F60A9 /* ManualScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualScrollableView.swift; sourceTree = "<group>"; };
+		FFBD921920371ACF00A25CB0 /* ManualScrollHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualScrollHandler.swift; sourceTree = "<group>"; };
+		FFBD922020372D4D00A25CB0 /* ListenableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenableScrollView.swift; sourceTree = "<group>"; };
+		FFBD922220372D6000A25CB0 /* ListenableCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenableCollectionView.swift; sourceTree = "<group>"; };
 		FFBFBF3B202E3F38005C2E35 /* BasicsMacKit4b.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BasicsMacKit4b.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBFBF3E202E3F38005C2E35 /* BasicsMacKit4b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicsMacKit4b.h; sourceTree = "<group>"; };
 		FFBFBF3F202E3F38005C2E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFBFBF44202E3F38005C2E35 /* BasicsMacKit4bTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicsMacKit4bTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBFBF49202E3F38005C2E35 /* BasicsMacKit4bTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsMacKit4bTests.swift; sourceTree = "<group>"; };
 		FFBFBF4B202E3F38005C2E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBFBF55202E3F45005C2E35 /* FIleManagerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIleManagerExtensions.swift; sourceTree = "<group>"; };
+		FFBFBF81202E4BF2005C2E35 /* NSColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColorExtensions.swift; sourceTree = "<group>"; };
+		FFBFBF83202E4C62005C2E35 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		FFEB31E2203FB6BC000B364C /* SetExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +76,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF2174272044C9BF0082CFD4 /* collections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = collections;
+			sourceTree = "<group>";
+		};
+		FFA7DA3E203C8D1B009F60A9 /* manual scroll */ = {
+			isa = PBXGroup;
+			children = (
+				FFBD921920371ACF00A25CB0 /* ManualScrollHandler.swift */,
+				FFA7DA3F203C8D32009F60A9 /* ManualScrollableView.swift */,
+			);
+			path = "manual scroll";
+			sourceTree = "<group>";
+		};
+		FFBD921F20372D3E00A25CB0 /* listenable */ = {
+			isa = PBXGroup;
+			children = (
+				FFBD922020372D4D00A25CB0 /* ListenableScrollView.swift */,
+				FFBD922220372D6000A25CB0 /* ListenableCollectionView.swift */,
+			);
+			path = listenable;
+			sourceTree = "<group>";
+		};
 		FFBFBF31202E3F38005C2E35 = {
 			isa = PBXGroup;
 			children = (
@@ -71,8 +122,20 @@
 		FFBFBF3D202E3F38005C2E35 /* BasicsMacKit4b */ = {
 			isa = PBXGroup;
 			children = (
+				FF2174272044C9BF0082CFD4 /* collections */,
+				FFA7DA3E203C8D1B009F60A9 /* manual scroll */,
+				FFBD921F20372D3E00A25CB0 /* listenable */,
 				FFBFBF3E202E3F38005C2E35 /* BasicsMacKit4b.h */,
 				FFBFBF3F202E3F38005C2E35 /* Info.plist */,
+				FFBFBF55202E3F45005C2E35 /* FIleManagerExtensions.swift */,
+				FFBFBF81202E4BF2005C2E35 /* NSColorExtensions.swift */,
+				FFBFBF83202E4C62005C2E35 /* StringExtensions.swift */,
+				FFA5E8792031308A005097DB /* NSViewExtensions.swift */,
+				FF2FF8EC2038CCD6008EB5AF /* BookmarksManager.swift */,
+				FFEB31E2203FB6BC000B364C /* SetExtensions.swift */,
+				FF8E9AEA203FBB1C00ABEDE1 /* NSLayoutConstraintsExtensions.swift */,
+				FF9ACFD22042105F0030F005 /* ViewHidder.swift */,
+				FF2173B7204486370082CFD4 /* URLExtensions.swift */,
 			);
 			path = BasicsMacKit4b;
 			sourceTree = "<group>";
@@ -148,6 +211,7 @@
 				TargetAttributes = {
 					FFBFBF3A202E3F38005C2E35 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					FFBFBF43202E3F38005C2E35 = {
@@ -196,6 +260,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF8E9AEB203FBB1C00ABEDE1 /* NSLayoutConstraintsExtensions.swift in Sources */,
+				FFA7DA40203C8D32009F60A9 /* ManualScrollableView.swift in Sources */,
+				FF9ACFD32042105F0030F005 /* ViewHidder.swift in Sources */,
+				FFBFBF84202E4C62005C2E35 /* StringExtensions.swift in Sources */,
+				FF2173B8204486370082CFD4 /* URLExtensions.swift in Sources */,
+				FFA5E87A2031308A005097DB /* NSViewExtensions.swift in Sources */,
+				FFBFBF82202E4BF2005C2E35 /* NSColorExtensions.swift in Sources */,
+				FFBD921A20371ACF00A25CB0 /* ManualScrollHandler.swift in Sources */,
+				FFBD922120372D4D00A25CB0 /* ListenableScrollView.swift in Sources */,
+				FF2FF8ED2038CCD6008EB5AF /* BookmarksManager.swift in Sources */,
+				FFBD922320372D6000A25CB0 /* ListenableCollectionView.swift in Sources */,
+				FFEB31E3203FB6BC000B364C /* SetExtensions.swift in Sources */,
+				FFBFBF56202E3F45005C2E35 /* FIleManagerExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +410,7 @@
 		FFBFBF50202E3F38005C2E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -348,6 +426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fourbottles.bsg.BasicsMacKit4b;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -355,6 +434,7 @@
 		FFBFBF51202E3F38005C2E35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -377,6 +457,7 @@
 		FFBFBF53202E3F38005C2E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GZ427KN25G;
@@ -391,6 +472,7 @@
 		FFBFBF54202E3F38005C2E35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GZ427KN25G;
